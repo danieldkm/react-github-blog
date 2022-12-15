@@ -2,7 +2,7 @@ import styled from 'styled-components'
 
 
 export const EffectContainer = styled.header`
-  background: ${(props) => props.theme['base-profile']};
+  background: linear-gradient(${props => props.theme['base-profile']}, ${props => props.theme['base-post']}, ${props => props.theme['base-border']});
   width: 100vw;
   min-height: 18.5rem;
   /* z-index: 999; */
@@ -34,4 +34,3 @@ export const HeaderContainer = styled.div`
   }
 
 `
-

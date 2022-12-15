@@ -13,9 +13,7 @@ export function Header() {
       <img src={effectLeft} alt="" className='effectLeft' />
       <img src={effectRight} alt="" className='effectRight' />
       <HeaderContainer>
-        <span>
-          <img src={logoGithublog} alt="" />
-        </span>
+        <img src={logoGithublog} alt="" />          
       </HeaderContainer>
     </EffectContainer>
   )
