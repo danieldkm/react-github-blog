@@ -11,7 +11,7 @@ export const PostContainer = styled.article`
   justify-content: center;
 
   flex-direction: column;
-  gap: 3rem;
+  /* gap: 3rem; */
 `;
 
 
@@ -55,4 +55,9 @@ export const FlexSpacebetween = styled.div`
 export const FlexRow = styled.div`
   display: flex;
   gap: 2rem;
+`
+
+export const CommentContainer = styled.section`
+  width: 100%;
+  padding: 32px 40px;
 `
